@@ -57,6 +57,10 @@ fn main() {
 }
 ```
 
+Every operation has a separate file created inside `src/`
+
 Use `mod` keyword and then the file name without `.rs` extension
 
 Access the functions the file has using **::** operator. For example `print::run()` in our case
+
+Run `cargo run` to run the file
